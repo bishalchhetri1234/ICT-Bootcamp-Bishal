@@ -56,8 +56,7 @@ npm install croc
 
 3. **Start the server**
 
-```bash
-node server.js
+node server.js 
 ```
 
 4. **Open the project**

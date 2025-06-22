@@ -1,27 +1,30 @@
 {
-  "name": "ict-bootcamp",
+  "name": "ict-bootcamp-bishal",
   "version": "1.0.0",
   "description": "10 Days ICT Bootcamp",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohanrajpoudel/ICT-Bootcamp.git"
+    "url": "git+https://github.com/bishalchhetri1234/ICT-Bootcamp-Bishal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/rohanrajpoudel/ICT-Bootcamp/issues"
+    "url": "https://github.com/bishalchhetri1234/ICT-Bootcamp-Bishal/issues"
   },
-  "homepage": "https://github.com/rohanrajpoudel/ICT-Bootcamp#readme",
+  "homepage": "https://github.com/bishalchhetri1234/ICT-Bootcamp-Bishal#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "playwright": "^1.53.1"
   }
 }
